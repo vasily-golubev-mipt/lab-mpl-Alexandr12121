@@ -3,13 +3,6 @@ file_name = open("file1.txt", 'r')
 arr = file_name.readlines()
 print("Amount of frames:  " + str(len(arr)))
 number_of_frame = 0
-"""
-arr_for_search_y-min_and_y-max = []
-for y_0 in range(1, 11, 2):
-        arr_for_search_y-min_and_y-max.extend(map(float, arr[y_0]))
-min_value1 = min(arr_for_search_y-min_and_y-max)
-max_value1 = max(arr_for_search_y-min_and_y-max)
-"""
 for even in range(0, 11, 2):
         x = arr[even].split()
         y = arr[even + 1].split()

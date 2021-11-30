@@ -13,7 +13,7 @@ group_names = ["751", "752", "753", "754", "755", "756"]
 color_names = ['red', 'yellow',  'palevioletred', 'green', 'gray', 'magenta', 'orange','mediumspringgreen', 'red', 'blue']
 mark_names = ["3", "4", "5", "6", "7", "8", "9", "10"]
 def plt_it(name, n):
-    marks = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    marks = [0, 0, 0, 0, 0, 0, 0, 0]
     for i in range(len(new_data)):
         if new_data[i][n] == name:
             for j in range(3, 11, 1):

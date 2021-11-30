@@ -10,7 +10,7 @@ for even in range(0, 11, 2):
             x[j], y[j] = map(float, (x[j], y[j]))
         fig, axes = plt.subplots()
         axes.plot(x, y, marker='', linestyle='--', color='green', linewidth=2)
-        plt.ylim([-15, 15])
+        plt.ylim([min(y), max(y)])
         plt.xlim([min(x), max(x)])
         axes.set_title("Frame: " + str(number_of_frame))
         axes.grid()
